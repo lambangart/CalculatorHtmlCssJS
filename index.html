@@ -12,7 +12,7 @@
             <div class="calculator">
                 <form>
                     <div class="display">
-                        <input type="text" name="display">
+                        <input type="text" maxlength="9"  name="display" onkeypress="return angkaSaja(event)">
                     </div>
                     <div class="operator">
                         <input type="button" value="AC" onclick="display.value =''">
